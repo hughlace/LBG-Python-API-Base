@@ -2,7 +2,7 @@ FROM python:latest
 
 WORKDIR /app
 
-COPY ..
+COPY . .
 
 RUN pip3 install -r "requirements.txt"
 
